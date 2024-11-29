@@ -28,11 +28,7 @@ class Cards extends Component {
         return (
            <React.Fragment>
                <div className="d-flex justify-content-end Cards">
-                   <TextField
-                       id="standard-basic" label="Search"
-                       color="secondary"
-                       onChange={this.getData}
-                   />
+                   
                </div>
                <div className="d-flex flex-wrap justify-content-center Cards p-lg-5" >
                    {

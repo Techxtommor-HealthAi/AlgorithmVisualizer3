@@ -1,12 +1,12 @@
 import graph from "./images/graph.png";
-import primes from "./images/primes.jpg";
-import sort from "./sort.png";
+import primes from "./images/prime.png";
+import sort from "./images/sorting.jpeg";
 import queen from "./images/queen.PNG";
-import binSearch from "./images/binaryTree.png";
-import convex from './images/convexHull.png';
-import puzzle from './images/15puzzle.PNG';
+import binSearch from "./images/binary-search.jpeg";
+import convex from './images/convex.gif';
+import findpath from './images/findpath.jpeg';
 import turing from './images/turing.jpg';
-import Recursion from './images/Recursion.jpg';
+import Recursion from './images/recursion.jpeg';
 export function getDetails(){
    return [
        {
@@ -14,7 +14,7 @@ export function getDetails(){
            title:"Pathfinder",
            description:"Visualize graph algorithms like dijkstra, BFS, DFS",
            route:"/pathfinder",
-           img:graph
+           img:findpath
        },
        {
            id:2,
@@ -71,13 +71,6 @@ export function getDetails(){
            description:"Binary search is an efficient algorithm for finding an item from a sorted list of item",
            route:"/binarysearch",
            img:binSearch
-       },
-       {
-           id:10,
-           title:"15 Puzzle",
-           description:"The 15 puzzle is a sliding puzzle having 15 square tiles numbered 1–15 in a frame that is 4 tiles high and 4 tiles wide, leaving one unoccupied tile position",
-           route:"/15puzzle",
-           img:puzzle
        }
 
    ]
